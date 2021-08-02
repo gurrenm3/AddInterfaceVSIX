@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="AddInterfaceVSIX.2f162630-fb8e-479c-aae1-6f56235d0669" Version="1.1" Language="en-US" Publisher="Thomas Margraff" />
+        <Identity Id="AddInterfaceVSIX.2f162630-fb8e-479c-aae1-6f56235d0669" Version="1.2" Language="en-US" Publisher="Thomas Margraff" />
         <DisplayName>Add New Interface</DisplayName>
         <Description xml:space="preserve">Adds a button to the "Add New Item" menu. Lets you instantly create a new interface. Can choose whether it's public or private</Description>
         <Icon>Resources\Icon.png</Icon>

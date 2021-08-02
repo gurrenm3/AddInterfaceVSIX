@@ -11,7 +11,7 @@ namespace AddInterfaceVSIX
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [Guid(AddInterfaceVSIXPackage.PackageGuidString)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
-    [ProvideToolWindow(typeof(AddItemToolWindow))]
+    [ProvideToolWindow(typeof(AddItemToolWindow), Style = VsDockStyle.AlwaysFloat, MultiInstances = false, Width = 450, Height = 125, Transient = true)]
     public sealed class AddInterfaceVSIXPackage : AsyncPackage
     {
         /// <summary>
