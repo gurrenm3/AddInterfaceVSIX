@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Commands package="guidAddInterfaceVSIXPackage">
+    <Buttons>
+      <Button guid="guidAddInterfaceVSIXPackageCmdSet" id="AddItemToolWindowCommandId" priority="0x0100" type="Button">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_PROJECT_ADD_MISC"/>
+        <Icon guid="ImageCatalogGuid" id="AddInterface" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <Strings>
+          <ButtonText>Interface...</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidAddInterfaceVSIXPackage" value="{b77eddb8-0283-454d-8620-5e3efd435a80}" />
+    <GuidSymbol name="guidAddInterfaceVSIXPackageCmdSet" value="{3f8194bf-dd7d-49f1-bbbe-430440c16c09}">
+      <IDSymbol name="AddItemToolWindowCommandId" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
